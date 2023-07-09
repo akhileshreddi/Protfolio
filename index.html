@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f765ef8fe2.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Protfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <span class="text first-text">Hi, I'm Akhilesh Reddy</span><br>
+            <span class="text second-text"></span>
+        </div>
+    </div>
+</div>
+<!------------------------About--------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                 <img src = "images/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1><br>
+                <p class="about-text">I always passionate about Technology and works towards it. 
+                    Basically I'm a people person and love interacting and working with them. 
+                    I'm a result oriented and constantly checking in with the goal to determine how close/far we are, 
+                    and attempts we need to make to reach my goal. 
+                    I love to work on projects. I wish to work on trending technologies and see the impact of my results.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <div class="skill-icons">
+                        <div class="skill-card">
+                            <div class="box">
+                                <div class="skill-img">
+                                    <img src="images/java-logo.png" alt>
+                                </div>
+                                <p class="skill-text">Java</p>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="box">
+                                <div class="skill-img">
+                                    <img src="images/js-logo.png" alt>
+                                </div>
+                                <p class="skill-text">Js</p>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="box">
+                                <div class="skill-img">
+                                    <img src="images/python-logo.png" alt>
+                                </div>
+                                <p class="skill-text">Python</p>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="box">
+                                <div class="skill-img">
+                                    <img src="images/spring-logo.png" alt>
+                                </div>
+                                <p class="skill-text">Spring</p>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="box">
+                                <div class="skill-img">
+                                    <img src="images/Html-logo.png" alt>
+                                </div>
+                                <p class="skill-text">HTML</p>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="box">
+                                <div class="skill-img">
+                                    <img src="images/css-logo.png" alt>
+                                </div>
+                                <p class="skill-text">CSS</p>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="box">
+                                <div class="skill-img">
+                                    <img src="images/django-logo.png" alt>
+                                </div>
+                                <p class="skill-text">Django</p>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="box">
+                                <div class="skill-img">
+                                    <img src="images/dsa-logo.png" alt>
+                                </div>
+                                <p class="skill-text">DSA</p>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="box">
+                                <div class="skill-img">
+                                    <img src="images/ml-logo.png" alt>
+                                </div>
+                                <p class="skill-text">Machine Learning</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Mar-present</span><br>Internship At Parallel Wireless</li>
+                        <li><span>Jan-Feb</span><br>Internship at startup VendosMart</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019-2023</span><br>CSE from Dayananda Sagar College of Engineering</li>
+                        
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<!---------------------------------Services--------------------------------------------->
+
+<div id="services">
+    <div class="container">
+
+    </div>
+</div>
+
+
+<!-----------------------------Protfolio------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpg">
+                <div class="layer">
+                    <h3>Segmentation of Carotid Artery</h3>
+                    <p>In this we build a EAR Unet deep learning algorithm
+                        It segments the Ultra sound artery image,so that we can 
+                        detect plaque accumulation in the artery.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                
+            </div>
+            <div class="work">
+                <img src="images/work-2.jpg">
+                <div class="layer">
+                    <h3>Vehicle Management System</h3>
+                        <p>This Application is to rent a vehicle for customers and
+                            in the back management of vehicles , users and employees
+                            with help of Rest APIs.
+                        </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/student-1.jpg">
+                <div class="layer">
+                    <h3>Student Result Management System</h3>
+                    <p>It a webpage to upload all students details and marks for every semester
+                        we can delete upload and update the details by using Rest APIs and for storage
+                        MySQL is used.</p>
+                    <a href="https://github.com/akhileshreddi/Student-Result-Management"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!--------------------------------Contact------------------------>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>akhilesh.9234@gmail.com</p>
+                <p><i class="fa-light fa-phone"></i>8688367508</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></i></a>
+
+                </div>
+                <a href="images/my-resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+                <span id="msg"></span>
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @Akhikesh. Made with<i class="fa-sharp fa-solid fa-heart"></i></p>
+    </div>
+</div>  
+<script>
+    const text = document.querySelector(".second-text");
+
+    const textLoad = () =>{
+        setTimeout(() => {
+            text.textContent = "Developer";
+        },0);
+
+        setTimeout(() => {
+            text.textContent = "Coder";
+        },4000);
+
+       
+    }
+
+    textLoad();
+    setInterval(textLoad,8000);
+
+</script>
+<script>
+    var sideu = document.getElementById("sidemenu");
+    function openmenu(){
+        sideu.style.right = "0";
+    }
+    function closemenu(){
+    
+        sideu.style.right = "-200px";
+    }
+    
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyXozJ53cZC3UOhXdQFajjC_oIhVC8muRT5upsF7INMyuRodR6cPXWpjJ0qL5nFShhI/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg");
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {msg.innerHTML="Message Sent Sucessfully"
+      setTimeout(function(){
+        msg.innerHTML=""
+      },5000)
+      form.reset()
+    })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
